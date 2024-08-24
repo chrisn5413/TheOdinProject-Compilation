@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    /* a good way to see the boxes in css */
+    /* outline: 2px solid red; */
+}
+
+body {
+    padding-bottom: 15px;
+}
+
+body,
+body *{
+    background-color: #FFD1DC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menu,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+    border-style: double;
+}
+
+.menu,
+.menu * {
+    background-color: rgb(248, 255, 184);
+    width: 360px;
+}
+
+.back {
+    background-color: rgb(228, 227, 227);
+    font-size: large;
+    font-weight: bold;
+    border-style: groove;
+}
+
+h1,
+h2,
+h3 {
+    background-color: rgb(118, 255, 255);
+    width: 400px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 330px;
+    width: 500px;
+    display: block;
+    outline: 3px solid black;
+}
+
+.description {
+    background-color: rgb(255, 255, 141);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 475px;
+}
+
+ul,
+ol {
+    display: table;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.ingredients, 
+.ingredients * {
+    background-color: rgb(109, 255, 83);
+    width: 443px;
+}
+
+.steps,
+.steps * {
+    background-color: rgb(255, 198, 92);
+    width: 443px;
+}
